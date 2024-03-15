@@ -1,0 +1,75 @@
+/* Hide the dropdown menu by default */
+.nav-item .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: none;
+    padding: 10px;
+}
+
+/* Show the dropdown menu when hovering over the nav-item */
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+/* Style the table */
+.dropdown-menu table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+}
+
+.dropdown-menu td, .dropdown-menu th {
+    border: none;
+    padding: 8px;
+    text-align: left;
+    color: rgb(116, 113, 113);
+}
+
+.dropdown-menu th {
+    background-color: #f2f2f2;
+}
+
+/*product*/
+
+.dropdown {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+}
+
+.dropdown-menu td, .dropdown-menu th {
+    border: none;
+    padding: 8px;
+    text-align: left;
+    color: rgb(116, 113, 113);
+}
+
+.dropdown-menu th {
+    background-color: #f2f2f2;
+}
+.table-link {
+    text-decoration: none; /* Remove default underline */
+    color: inherit; /* Inherit the color from the parent element */
+}
+
+.btn-pink {
+    background: linear-gradient(to right, #ff80bf, #ff007f); /* Pink gradient background */
+    color: white; /* Text color */
+}
+
+.btn-pink:hover {
+    font-weight: bold;
+    background: beige;
+    color: #ff007f;
+}
+
+.btn-light:hover {
+    font-weight: bold;
+    background: linear-gradient(to right, #ff80bf, #ff007f); /* Pink gradient background on hover */
+    color: white; /* Text color on hover */
+}
+
+/* You may need to adjust the gradient colors to fit your design preferences */
+
+
